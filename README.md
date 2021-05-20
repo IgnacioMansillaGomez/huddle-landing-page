@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop - ![](/screenshots/Huddle-landing-page-desktop.png)
-Mobile - ![](/screenshots/Huddle-landing-Mobile.png)
+![](/screenshots/Huddle-landing-page-desktop.png)
+![](/screenshots/Huddle-landing-Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://ignaciomansillagomez.github.io/huddle-landing-page)
 
 ## My process
 
