@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  max-width: 375px;
+  background-color: #674baf;
+  font-size: 15px; }
+
+.container {
+  width: 100%; }
+  .container .header {
+    width: 100%;
+    background: url(/images/bg-mobile.svg); }
+    .container .header .brand__image {
+      padding: 35px 20px;
+      text-align: left; }
+      .container .header .brand__image img {
+        width: 50%; }
+    .container .header .main__image {
+      width: 90%;
+      margin: 10px 20px; }
+      .container .header .main__image img {
+        width: 100%; }
+  .container .main {
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center; }
+    .container .main .main__title {
+      font-family: "Poppins";
+      color: white;
+      font-size: 1.7rem; }
+    .container .main .main__copy {
+      font-family: "Open Sans";
+      color: white;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      padding: 20px 10px 20px 10px; }
+    .container .main .button__container {
+      margin: 10px auto; }
+      .container .main .button__container .button__register {
+        width: 70%;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 17px;
+        background: white;
+        color: #674baf;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 2px 0 1px rgba(70, 67, 67, 0.8); }
+        .container .main .button__container .button__register:hover {
+          background-color: #e882e8;
+          color: white; }
+  .container footer {
+    width: 100%;
+    padding-top: 20px; }
+    .container footer .social__media {
+      margin: 50px auto;
+      max-width: 60%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white; }
+      .container footer .social__media .facebook {
+        text-align: center;
+        padding: 10px 15px;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+      .container footer .social__media .twitter {
+        text-align: center;
+        padding: 12px 13px;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+      .container footer .social__media .instagram {
+        text-align: center;
+        padding: 10px 13px;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+      .container footer .social__media .instagram:hover,
+      .container footer .social__media .facebook:hover,
+      .container footer .social__media .twitter:hover {
+        color: #e882e8;
+        border: 1px solid #e882e8; }
+
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 1440px; }
+
+  .container {
+    background: url(/images/bg-desktop.svg);
+    background-color: #674baf;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .container .header {
+      width: 55%;
+      background: none;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .container .main {
+      width: 40%;
+      margin-top: 13%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: left;
+      margin-right: 50px; }
+      .container .main .main__title {
+        width: 80%;
+        font-family: "Open Sans";
+        font-weight: 700;
+        color: white;
+        font-size: 2.5rem; }
+      .container .main .main__copy {
+        width: 90%;
+        font-family: "Poppins";
+        color: white;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 27px;
+        padding: 20px auto; }
+      .container .main .button__container {
+        margin: 0;
+        margin-left: 10px;
+        padding-top: 10px; }
+        .container .main .button__container .button__register {
+          width: 40%;
+          font-size: 17px;
+          background: white;
+          color: #674baf;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border-radius: 30px;
+          box-shadow: 1px 3px 0 2px rgba(70, 67, 67, 0.6); }
+    .container footer {
+      clear: both;
+      float: right;
+      width: 30%; }
+      .container footer .social__media {
+        margin-top: 10px;
+        max-width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white; } }
+
+/*# sourceMappingURL=style.css.map */
